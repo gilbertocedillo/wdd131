@@ -1,5 +1,7 @@
 /* mobile **************************/
 header {
+  display: grid;
+  grid-template-rows: auto 1fr;
 	background-color: #4627f3;
 	display: flex;
 	align-items: center;
@@ -53,13 +55,14 @@ nav a:hover {
 
 /* Combine other styles from your base.css here */
 /* Import Google Fonts styles */
-@import url('https://fonts.googleapis.com/css2?family=YourFont1:wght@400;700&family=YourFont2:wght@300;400&display=swap');
+/* Import Google Fonts styles */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Jersey+25&display=swap');
 
 /* Your base styles here */
 body {
-  font-family: 'YourFont1', sans-serif; 
-  color: #000000;
+  font-family: 'YourFont1', sans-serif; /* Use imported fonts */
 }
+
 
 main {
   /* Add your main element styles here */
