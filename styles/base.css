@@ -55,12 +55,14 @@ nav a:hover {
 /* Combine other styles from your base.css here */
 /* Import Google Fonts styles */
 /* Import Google Fonts styles */
+/* Import Google Fonts styles */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Jersey+25&display=swap');
 
 /* Your base styles here */
 body {
-  font-family: 'YourFont1', sans-serif; /* Use imported fonts */
+    font-family: 'Playfair Display', serif; /* Use imported fonts */
 }
+
 
 
 main {
