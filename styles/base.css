@@ -52,10 +52,13 @@ nav a:hover {
 }
 
 /* Combine other styles from your base.css here */
+/* Import Google Fonts styles */
+@import url('https://fonts.googleapis.com/css2?family=YourFont1:wght@400;700&family=YourFont2:wght@300;400&display=swap');
 
+/* Your base styles here */
 body {
-  /* Add your preferred body styles here */
-  color: #000000; /* Example color for better contrast */
+  font-family: 'YourFont1', sans-serif; 
+  color: #000000;
 }
 
 main {
